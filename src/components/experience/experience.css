@@ -4,19 +4,19 @@
     gap: 2rem;
 }
 
-.experience__container >div{
+.experience__container > div{
     background: var(--color-bg-variant);
     padding: 2.4rem 5rem;
     border-radius: 2rem;
     border: 1px solid transparent;
 }
-.experience__container >div:hover{
+.experience__container > div:hover{
     background: transparent;
     background-color: var(--color-primary-varient);
     cursor: default;
     transition: var(--transition);
 }
-.experience__container >div h3{
+.experience__container > div h3{
     text-align: center;
     margin-bottom: 2rem;
     color: var(--color-primary);
@@ -61,3 +61,15 @@
    }
 
     }
+
+.experience__frontend{
+    height:48vh;
+    width:  32vw;
+    margin-left: 12rem;
+}
+.experience__graphics{
+        height:48vh;
+        width:  32vw;
+        margin-left: 4rem;
+    
+}

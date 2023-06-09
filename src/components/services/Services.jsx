@@ -7,28 +7,29 @@ const Services = () => {
     <section id="services">
       <h5>What I offer</h5>
       <h2>Services</h2>
+      <br />
 
       <div className='services__container' >
         <article className='service'>
           <div className='service__head'>
-            <h3>UI/UX Design</h3>
+            <h3>Graphics Designing</h3>
           </div>
           <ul className='service__list'> 
           <li>
             <BiCheck className="service__list-icon"/>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Logo Design</p>
           </li>
           <li>
             <BiCheck className="service__list-icon"/>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Banner Design</p>
           </li>
           <li>
             <BiCheck className="service__list-icon"/>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Visiting Card Design</p>
           </li>
           <li>
             <BiCheck className="service__list-icon"/>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Social Media Post Design</p>
           </li>
 
           </ul>
@@ -42,19 +43,19 @@ const Services = () => {
           <ul className='service__list'> 
           <li>
             <BiCheck className="service__list-icon"/>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>School/Colege Websites</p>
           </li>
           <li>
             <BiCheck className="service__list-icon"/>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Consultancy Websites</p>
           </li>
           <li>
             <BiCheck className="service__list-icon"/>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Website Redesigning</p>
           </li>
           <li>
             <BiCheck className="service__list-icon"/>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Personal Websites</p>
           </li>
 
           </ul>
@@ -63,24 +64,24 @@ const Services = () => {
 
         <article className='service'>
           <div className='service__head'>
-            <h3>Content Creation</h3>
+            <h3>Content Writer</h3>
           </div>
           <ul className='service__list'> 
           <li>
             <BiCheck className="service__list-icon"/>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Technical Blog</p>
           </li>
           <li>
             <BiCheck className="service__list-icon"/>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Sports Report</p>
           </li>
           <li>
             <BiCheck className="service__list-icon"/>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Personal Blogs</p>
           </li>
           <li>
             <BiCheck className="service__list-icon"/>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Story Writing</p>
           </li>
 
           </ul>
