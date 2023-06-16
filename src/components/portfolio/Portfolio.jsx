@@ -15,7 +15,7 @@ const Portfolio = () => {
       <div className='container portfolio__container'>
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
-            <img src={IMG4} alt="" />
+            <img src={IMG4} alt="" height={250} />
           </div>
           <h3>Todo-List App</h3>
           <div className="portfolio__item-cta">
@@ -37,7 +37,7 @@ const Portfolio = () => {
 
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
-            <img src={IMG3} alt="" />
+            <img src={IMG3} alt="" height={250} />
           </div>
           <h3>Stop-Watch</h3>
           <div className="portfolio__item-cta">
