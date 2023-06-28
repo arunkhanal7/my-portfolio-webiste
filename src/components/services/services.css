@@ -87,11 +87,29 @@
     .service{
         height: auto;
     }
+    .content{
+        margin-left: 5rem;
+        margin-right: 2.5rem;
+    }
 }
 
 @media screen and (max-width: 600px){
     .services__container{
         grid-template-columns: 1fr;
         
+    }
+    .graphics{
+        margin-right:5rem;
+
+    }
+    .web{
+        margin-right: 5rem;
+        margin-left: 5rem;
+
+    }
+    .content{
+        margin-right: 5rem;
+        margin-left: 5rem;
+
     }
 }   
