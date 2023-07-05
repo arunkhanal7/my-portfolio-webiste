@@ -3,6 +3,8 @@ import './portfolio.css'
 import IMG3 from '../../assets/stopwatch.png'
 import IMG4 from '../../assets/todo.png'
 import IMG5 from '../../assets/weather.png'
+import IMG6 from '../../assets/book.png'
+import IMG7 from '../../assets/crud_app.png'
 
 
 const Portfolio = () => {
@@ -13,6 +15,19 @@ const Portfolio = () => {
       <br />
 
       <div className='container portfolio__container'>
+      {/* book webiste */}
+      <article className='portfolio__item'>
+          <div className='portfolio__item-image'>
+            <img src={IMG6} alt="" height={250}  className='book'/>
+          </div>
+          <h3>Book Show Website</h3>
+          <div className="portfolio__item-cta">
+          <a href="https://github.com/arunkhanal7/bookshow_website" className='btn'>Github</a>
+          <a href="https://atomic-habitsbook.netlify.app" className='btn btn-primary' target='_blank' rel='noreferrer'>Live Demo</a>
+          </div>
+        </article>
+
+      
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
             <img src={IMG4} alt="" height={250} />
@@ -31,7 +46,20 @@ const Portfolio = () => {
           <h3>Weather-App</h3>
           <div className="portfolio__item-cta">
           <a href="https://github.com/arunkhanal7/WeatherApp" className='btn'>Github</a>
-          <a href="https://euphonious-kitsune-b27b71.netlify.app" className='btn btn-primary' target='_blank' rel='noreferrer'>Live Demo</a>
+          <a href="https://weathers-app-api.netlify.app" className='btn btn-primary' target='_blank' rel='noreferrer'>Live Demo</a>
+          </div>
+        </article>
+
+        {/* CRUD APP - Employee */}
+
+        <article className='portfolio__item'>
+          <div className='portfolio__item-image'>
+            <img src={IMG7} alt="" height={250} className='crud' />
+          </div>
+          <h3>API:- CRUD App</h3>
+          <div className="portfolio__item-cta">
+          <a href="https://github.com/arunkhanal7/CRUD_ReactJS" className='btn'>Github</a>
+          
           </div>
         </article>
 

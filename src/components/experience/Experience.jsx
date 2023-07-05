@@ -32,7 +32,7 @@ const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon"/>
               <div>
                   <h4>JavaScript</h4>
-                  <small className='text-light'>Experienced</small>
+                  <small className='text-light'>Intermediate</small>
               </div>
 
             </article>
@@ -40,7 +40,7 @@ const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon"/>
               <div>
                   <h4>Bootstrap</h4>
-                  <small className='text-light'>Experienced</small>
+                  <small className='text-light'>Intermediate</small>
               </div>
 
             </article>
@@ -48,7 +48,7 @@ const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon"/>
               <div>
                   <h4>React</h4>
-                  <small className='text-light'>Experienced</small>
+                  <small className='text-light'>Basic</small>
               </div>
 
             </article>
@@ -63,7 +63,7 @@ const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon"/>
               <div>
                   <h4>Adobe Photoshop</h4>
-                  <small className='text-light'>Experienced</small>
+                  <small className='text-light'>Basic</small>
               </div>
 
             </article>
@@ -79,7 +79,7 @@ const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon"/>
               <div>
                   <h4>Adobe Premiere Pro</h4>
-                  <small className='text-light'>Experienced</small>
+                  <small className='text-light'>Basic</small>
               </div>
 
             </article>
@@ -87,7 +87,7 @@ const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon"/>
               <div>
                   <h4>Canva</h4>
-                  <small className='text-light'>Experienced</small>
+                  <small className='text-light'>Intermediate</small>
               </div>
 
             </article>

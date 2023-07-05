@@ -25,6 +25,12 @@
     gap: 1rem;
     margin-bottom: 1 rem;
 }
+.crud {
+    object-fit:fill;
+}
+.book{
+    object-fit: fill;
+}
 @media screen and (max-width: 1024px){
     .portfolio__container{
         grid-template-columns: 1fr 1fr;
