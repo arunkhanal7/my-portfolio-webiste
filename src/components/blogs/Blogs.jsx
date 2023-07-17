@@ -1,6 +1,8 @@
 import React from 'react'
 import './blogs.css'
-import IMG1 from '../../assets/portfolio1.jpg'
+import IMG1 from '../../assets/blog1.png'
+import IMG2 from '../../assets/blog2.png'
+import IMG3 from '../../assets/blog3.png'
 
 export const Blogs = () => {
   return (
@@ -13,29 +15,29 @@ export const Blogs = () => {
           <div className='blog__item-image'>
             <img src={IMG1} alt="" />
           </div>
-          <h3>This is a title of a blog.</h3>
+          <h3>Best Mobile Phones Under Rs. 30000 in Nepal</h3>
           <div className="blog__item-cta">
-          <a href="https://" className='btn btn-primary' target='_blank' rel='noreferrer'>Read Full</a>
+          <a href="https://bestinmart.com/best-mobile-phones-under-rs-30000-in-nepal/" className='btn btn-primary button' target='_blank' rel='noreferrer'>Read Full</a>
           </div>
         </article>
 
         <article className='blog__item'>
           <div className='blog__item-image'>
-            <img src={IMG1} alt="" />
+            <img src={IMG2} alt="" />
           </div>
-          <h3>This is a title of a blog.</h3>
+          <h3>Sony PS5(playstation) Price in Nepal 2023</h3>
           <div className="blog__item-cta">
-          <a href="https://" className='btn btn-primary' target='_blank' rel='noreferrer'>Read Full</a>
+          <a href="https://bestinmart.com/ps5-price-in-nepal/" className='btn btn-primary button' target='_blank' rel='noreferrer'>Read Full</a>
           </div>
         </article>
 
         <article className='blog__item'>
           <div className='blog__item-image'>
-            <img src={IMG1} alt="" />
+            <img src={IMG3} alt="" />
           </div>
-          <h3>This is a title of a blog.</h3>
+          <h3>Poco X3/Poco X3 Pro Price in Nepal</h3>
           <div className="blog__item-cta">
-          <a href="https://" className='btn btn-primary' target='_blank' rel='noreferrer'>Read Full</a>
+          <a href="https://bestinmart.com/xiaomi-poco-x3-poco-x3-pro-price-in-nepal/" className='btn btn-primary button' target='_blank' rel='noreferrer'>Read Full</a>
           </div>
         </article>
 

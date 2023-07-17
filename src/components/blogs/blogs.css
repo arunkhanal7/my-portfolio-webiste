@@ -13,9 +13,10 @@
     border-color: var(--color-primary-varient);
     background: transparent;
 }
-.blog__item-iamge{
+.blog__item-image{
     border-radius: 1.5rem;
     overflow: hidden;
+    height: 13rem;
 }
 .blog__item h3{
     margin: 1.2rem 0 2 rem;
@@ -24,6 +25,12 @@
     display: flex;
     gap: 1rem;
     margin-bottom: 1 rem;
+}
+.btn-primary{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 @media screen and (max-width: 1024px){
     .blog__container{
