@@ -5,6 +5,7 @@ import IMG4 from '../../assets/todo.png'
 import IMG5 from '../../assets/weather.png'
 import IMG6 from '../../assets/book.png'
 import IMG7 from '../../assets/crud_app.png'
+import IMG8 from '../../assets/e-com.png'
 
 
 const Portfolio = () => {
@@ -15,6 +16,18 @@ const Portfolio = () => {
       <br />
 
       <div className='container portfolio__container'>
+          {/* E commerce website  */}
+      <article className='portfolio__item'>
+          <div className='portfolio__item-image'>
+            <img src={IMG8} alt="" height={250}  className='book'/>
+          </div>
+          <h3>E Commerce Website</h3>
+          <div className="portfolio__item-cta">
+          <a href="https://github.com/arunkhanal7/ecommerce_website" className='btn'>Github</a>
+          <a href="https://e-com-webs.netlify.app/" className='btn btn-primary' target='_blank' rel='noreferrer'>Live Demo</a>
+          </div>
+        </article>
+
       {/* book webiste */}
       <article className='portfolio__item'>
           <div className='portfolio__item-image'>
